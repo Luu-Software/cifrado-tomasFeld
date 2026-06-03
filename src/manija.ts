@@ -3,7 +3,7 @@ import { preguntar } from './lib/consola.ts';
 function obtenerPrefijo(numero: number, tamañoPrefijo: number): number {
    
 
-  const resultado: number = Number(numero.toString().substring(0, tamañoPrefijo));
+  const resultado: number = parseInt(numero.toString().substring(0, tamañoPrefijo));
 
   return resultado; 
 }
