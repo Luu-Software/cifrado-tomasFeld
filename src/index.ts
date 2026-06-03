@@ -1,9 +1,9 @@
 import { preguntar } from "./lib/consola.ts"; 
 import { cifrar, descifrar } from "./lib/funcionesCriptográficas.ts"; 
 
-let palabra: string | null = preguntar("Ingresa la palabra a CIFRAR o DESCIFRAR"); 
+let palabra: string  = preguntar("Ingresa la palabra a CIFRAR o DESCIFRAR"); 
 let claveTexto: number = parseInt( preguntar("Ingresa la clave de cifrado"));
-let accion: string | null = preguntar("Ingresa si quieres CIFRAR o DESCIFRAR"); 
+let accion: string  = preguntar("Ingresa si quieres CIFRAR o DESCIFRAR"); 
 
 let resultado: string | undefined;
 
